@@ -149,10 +149,10 @@ function NavbarComponent() {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <Navbar color="dark" expand="md">
+    <Navbar color="secondary" expand="md">
       <Container fluid>
         <Row className="">
-          <Col xs="12" class="text-center">
+          <Col xs="12" className="text-center">
             <NavbarBrand className="text-light" href="/">
               Fõmi
             </NavbarBrand>

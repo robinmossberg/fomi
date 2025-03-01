@@ -1,17 +1,6 @@
-@import 'bootstrap/dist/css/bootstrap.min.css';
-
-@theme {
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@import '../styles/index.scss';
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  background: #b5d5d0;
   font-family: Arial, Helvetica, sans-serif;
 }
